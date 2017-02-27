@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CC1EAF8F619C0AF3599F73D /* Pods_TRZXPersonalWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08D71B2C4CB38E9557F0F37 /* Pods_TRZXPersonalWatch.framework */; };
 		B70E984F1E63BA2C00FA3145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E984E1E63BA2C00FA3145 /* main.m */; };
 		B70E98521E63BA2C00FA3145 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98511E63BA2C00FA3145 /* AppDelegate.m */; };
-		B70E98551E63BA2C00FA3145 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98541E63BA2C00FA3145 /* ViewController.m */; };
 		B70E98581E63BA2C00FA3145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70E98561E63BA2C00FA3145 /* Main.storyboard */; };
 		B70E985A1E63BA2C00FA3145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70E98591E63BA2C00FA3145 /* Assets.xcassets */; };
 		B70E985D1E63BA2C00FA3145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70E985B1E63BA2C00FA3145 /* LaunchScreen.storyboard */; };
 		B70E98681E63BA2C00FA3145 /* TRZXPersonalWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98671E63BA2C00FA3145 /* TRZXPersonalWatchTests.m */; };
 		B70E98731E63BA2C00FA3145 /* TRZXPersonalWatchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98721E63BA2C00FA3145 /* TRZXPersonalWatchUITests.m */; };
+		B70E98831E63BA5D00FA3145 /* TRZXPersonalWatchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98821E63BA5D00FA3145 /* TRZXPersonalWatchController.m */; };
+		B70E98861E63BEF400FA3145 /* TRZXPersonalWatchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98851E63BEF400FA3145 /* TRZXPersonalWatchModel.m */; };
+		B70E988A1E63C02200FA3145 /* ZaixianerjiyedeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98881E63C02200FA3145 /* ZaixianerjiyedeCell.m */; };
+		B70E988B1E63C02200FA3145 /* ZaixianerjiyedeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70E98891E63C02200FA3145 /* ZaixianerjiyedeCell.xib */; };
+		B70E988F1E63C05C00FA3145 /* InvestSeeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E988D1E63C05C00FA3145 /* InvestSeeCell.m */; };
+		B70E98901E63C05C00FA3145 /* InvestSeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70E988E1E63C05C00FA3145 /* InvestSeeCell.xib */; };
+		B70E98941E63C07A00FA3145 /* NoLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98921E63C07A00FA3145 /* NoLabelView.m */; };
+		B70E98951E63C07A00FA3145 /* NoLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70E98931E63C07A00FA3145 /* NoLabelView.xib */; };
+		B70E98981E63C85000FA3145 /* TRZXPWatchViewMode.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98971E63C85000FA3145 /* TRZXPWatchViewMode.m */; };
+		B70E989C1E63D73000FA3145 /* college_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70E989B1E63D73000FA3145 /* college_home@2x.png */; };
+		B70E98A01E63D7ED00FA3145 /* 播放1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70E989F1E63D7ED00FA3145 /* 播放1@2x.png */; };
+		B70E98A21E63D87700FA3145 /* 看过@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70E98A11E63D87700FA3145 /* 看过@2x.png */; };
+		B70E98A41E63E0E900FA3145 /* 展位图.png in Resources */ = {isa = PBXBuildFile; fileRef = B70E98A31E63E0E900FA3145 /* 展位图.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A715E85B767753528ED35C7A /* Pods-TRZXPersonalWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXPersonalWatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXPersonalWatch/Pods-TRZXPersonalWatch.debug.xcconfig"; sourceTree = "<group>"; };
 		B70E984A1E63BA2C00FA3145 /* TRZXPersonalWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXPersonalWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70E984E1E63BA2C00FA3145 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B70E98501E63BA2C00FA3145 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B70E98511E63BA2C00FA3145 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B70E98531E63BA2C00FA3145 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B70E98541E63BA2C00FA3145 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B70E98571E63BA2C00FA3145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B70E98591E63BA2C00FA3145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B70E985C1E63BA2C00FA3145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,27 @@
 		B70E986E1E63BA2C00FA3145 /* TRZXPersonalWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXPersonalWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70E98721E63BA2C00FA3145 /* TRZXPersonalWatchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalWatchUITests.m; sourceTree = "<group>"; };
 		B70E98741E63BA2C00FA3145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B70E98811E63BA5D00FA3145 /* TRZXPersonalWatchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXPersonalWatchController.h; sourceTree = "<group>"; };
+		B70E98821E63BA5D00FA3145 /* TRZXPersonalWatchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalWatchController.m; sourceTree = "<group>"; };
+		B70E98841E63BEF400FA3145 /* TRZXPersonalWatchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXPersonalWatchModel.h; sourceTree = "<group>"; };
+		B70E98851E63BEF400FA3145 /* TRZXPersonalWatchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalWatchModel.m; sourceTree = "<group>"; };
+		B70E98871E63C02200FA3145 /* ZaixianerjiyedeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZaixianerjiyedeCell.h; sourceTree = "<group>"; };
+		B70E98881E63C02200FA3145 /* ZaixianerjiyedeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZaixianerjiyedeCell.m; sourceTree = "<group>"; };
+		B70E98891E63C02200FA3145 /* ZaixianerjiyedeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZaixianerjiyedeCell.xib; sourceTree = "<group>"; };
+		B70E988C1E63C05C00FA3145 /* InvestSeeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvestSeeCell.h; sourceTree = "<group>"; };
+		B70E988D1E63C05C00FA3145 /* InvestSeeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvestSeeCell.m; sourceTree = "<group>"; };
+		B70E988E1E63C05C00FA3145 /* InvestSeeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InvestSeeCell.xib; sourceTree = "<group>"; };
+		B70E98911E63C07A00FA3145 /* NoLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoLabelView.h; sourceTree = "<group>"; };
+		B70E98921E63C07A00FA3145 /* NoLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoLabelView.m; sourceTree = "<group>"; };
+		B70E98931E63C07A00FA3145 /* NoLabelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoLabelView.xib; sourceTree = "<group>"; };
+		B70E98961E63C85000FA3145 /* TRZXPWatchViewMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXPWatchViewMode.h; sourceTree = "<group>"; };
+		B70E98971E63C85000FA3145 /* TRZXPWatchViewMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXPWatchViewMode.m; sourceTree = "<group>"; };
+		B70E989B1E63D73000FA3145 /* college_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "college_home@2x.png"; sourceTree = "<group>"; };
+		B70E989F1E63D7ED00FA3145 /* 播放1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放1@2x.png"; sourceTree = "<group>"; };
+		B70E98A11E63D87700FA3145 /* 看过@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "看过@2x.png"; sourceTree = "<group>"; };
+		B70E98A31E63E0E900FA3145 /* 展位图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "展位图.png"; sourceTree = "<group>"; };
+		E08D71B2C4CB38E9557F0F37 /* Pods_TRZXPersonalWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRZXPersonalWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9EE8943BC8A52C2D0C98A6 /* Pods-TRZXPersonalWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXPersonalWatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXPersonalWatch/Pods-TRZXPersonalWatch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC1EAF8F619C0AF3599F73D /* Pods_TRZXPersonalWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +112,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A520C68F42CA0448C2B1C2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E08D71B2C4CB38E9557F0F37 /* Pods_TRZXPersonalWatch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B70E98411E63BA2C00FA3145 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +127,8 @@
 				B70E98661E63BA2C00FA3145 /* TRZXPersonalWatchTests */,
 				B70E98711E63BA2C00FA3145 /* TRZXPersonalWatchUITests */,
 				B70E984B1E63BA2C00FA3145 /* Products */,
+				F2A4C168C63D156661459782 /* Pods */,
+				4A520C68F42CA0448C2B1C2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +145,9 @@
 		B70E984C1E63BA2C00FA3145 /* TRZXPersonalWatch */ = {
 			isa = PBXGroup;
 			children = (
+				B70E98801E63BA4D00FA3145 /* TRZXPersonalWatch */,
 				B70E98501E63BA2C00FA3145 /* AppDelegate.h */,
 				B70E98511E63BA2C00FA3145 /* AppDelegate.m */,
-				B70E98531E63BA2C00FA3145 /* ViewController.h */,
-				B70E98541E63BA2C00FA3145 /* ViewController.m */,
 				B70E98561E63BA2C00FA3145 /* Main.storyboard */,
 				B70E98591E63BA2C00FA3145 /* Assets.xcassets */,
 				B70E985B1E63BA2C00FA3145 /* LaunchScreen.storyboard */,
@@ -140,6 +183,41 @@
 			path = TRZXPersonalWatchUITests;
 			sourceTree = "<group>";
 		};
+		B70E98801E63BA4D00FA3145 /* TRZXPersonalWatch */ = {
+			isa = PBXGroup;
+			children = (
+				B70E98A31E63E0E900FA3145 /* 展位图.png */,
+				B70E98A11E63D87700FA3145 /* 看过@2x.png */,
+				B70E989F1E63D7ED00FA3145 /* 播放1@2x.png */,
+				B70E989B1E63D73000FA3145 /* college_home@2x.png */,
+				B70E98911E63C07A00FA3145 /* NoLabelView.h */,
+				B70E98921E63C07A00FA3145 /* NoLabelView.m */,
+				B70E98931E63C07A00FA3145 /* NoLabelView.xib */,
+				B70E988C1E63C05C00FA3145 /* InvestSeeCell.h */,
+				B70E988D1E63C05C00FA3145 /* InvestSeeCell.m */,
+				B70E988E1E63C05C00FA3145 /* InvestSeeCell.xib */,
+				B70E98871E63C02200FA3145 /* ZaixianerjiyedeCell.h */,
+				B70E98881E63C02200FA3145 /* ZaixianerjiyedeCell.m */,
+				B70E98891E63C02200FA3145 /* ZaixianerjiyedeCell.xib */,
+				B70E98961E63C85000FA3145 /* TRZXPWatchViewMode.h */,
+				B70E98971E63C85000FA3145 /* TRZXPWatchViewMode.m */,
+				B70E98811E63BA5D00FA3145 /* TRZXPersonalWatchController.h */,
+				B70E98821E63BA5D00FA3145 /* TRZXPersonalWatchController.m */,
+				B70E98841E63BEF400FA3145 /* TRZXPersonalWatchModel.h */,
+				B70E98851E63BEF400FA3145 /* TRZXPersonalWatchModel.m */,
+			);
+			path = TRZXPersonalWatch;
+			sourceTree = "<group>";
+		};
+		F2A4C168C63D156661459782 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A715E85B767753528ED35C7A /* Pods-TRZXPersonalWatch.debug.xcconfig */,
+				FF9EE8943BC8A52C2D0C98A6 /* Pods-TRZXPersonalWatch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B70E98771E63BA2C00FA3145 /* Build configuration list for PBXNativeTarget "TRZXPersonalWatch" */;
 			buildPhases = (
+				CD40DBBFAB245681345C8F1E /* [CP] Check Pods Manifest.lock */,
 				B70E98461E63BA2C00FA3145 /* Sources */,
 				B70E98471E63BA2C00FA3145 /* Frameworks */,
 				B70E98481E63BA2C00FA3145 /* Resources */,
+				EEBD10FEFBF0A81D943DC262 /* [CP] Embed Pods Frameworks */,
+				C31012B33EAF9621B3A2327F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,8 +327,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70E98A41E63E0E900FA3145 /* 展位图.png in Resources */,
 				B70E985D1E63BA2C00FA3145 /* LaunchScreen.storyboard in Resources */,
+				B70E98A01E63D7ED00FA3145 /* 播放1@2x.png in Resources */,
+				B70E98901E63C05C00FA3145 /* InvestSeeCell.xib in Resources */,
+				B70E989C1E63D73000FA3145 /* college_home@2x.png in Resources */,
+				B70E98951E63C07A00FA3145 /* NoLabelView.xib in Resources */,
+				B70E988B1E63C02200FA3145 /* ZaixianerjiyedeCell.xib in Resources */,
 				B70E985A1E63BA2C00FA3145 /* Assets.xcassets in Resources */,
+				B70E98A21E63D87700FA3145 /* 看过@2x.png in Resources */,
 				B70E98581E63BA2C00FA3145 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +356,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C31012B33EAF9621B3A2327F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXPersonalWatch/Pods-TRZXPersonalWatch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD40DBBFAB245681345C8F1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEBD10FEFBF0A81D943DC262 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXPersonalWatch/Pods-TRZXPersonalWatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B70E98461E63BA2C00FA3145 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B70E98551E63BA2C00FA3145 /* ViewController.m in Sources */,
+				B70E98941E63C07A00FA3145 /* NoLabelView.m in Sources */,
+				B70E98861E63BEF400FA3145 /* TRZXPersonalWatchModel.m in Sources */,
 				B70E98521E63BA2C00FA3145 /* AppDelegate.m in Sources */,
 				B70E984F1E63BA2C00FA3145 /* main.m in Sources */,
+				B70E988F1E63C05C00FA3145 /* InvestSeeCell.m in Sources */,
+				B70E98831E63BA5D00FA3145 /* TRZXPersonalWatchController.m in Sources */,
+				B70E98981E63C85000FA3145 /* TRZXPWatchViewMode.m in Sources */,
+				B70E988A1E63C02200FA3145 /* ZaixianerjiyedeCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +563,7 @@
 		};
 		B70E98781E63BA2C00FA3145 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A715E85B767753528ED35C7A /* Pods-TRZXPersonalWatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TRZXPersonalWatch/Info.plist;
@@ -433,6 +575,7 @@
 		};
 		B70E98791E63BA2C00FA3145 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF9EE8943BC8A52C2D0C98A6 /* Pods-TRZXPersonalWatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TRZXPersonalWatch/Info.plist;
@@ -507,6 +650,7 @@
 				B70E98791E63BA2C00FA3145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B70E987A1E63BA2C00FA3145 /* Build configuration list for PBXNativeTarget "TRZXPersonalWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +659,7 @@
 				B70E987C1E63BA2C00FA3145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B70E987D1E63BA2C00FA3145 /* Build configuration list for PBXNativeTarget "TRZXPersonalWatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +668,7 @@
 				B70E987F1E63BA2C00FA3145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B70E98491E63BA2C00FA3145"
+               BuildableName = "TRZXPersonalWatch.app"
+               BlueprintName = "TRZXPersonalWatch"
+               ReferencedContainer = "container:TRZXPersonalWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B70E98621E63BA2C00FA3145"
+               BuildableName = "TRZXPersonalWatchTests.xctest"
+               BlueprintName = "TRZXPersonalWatchTests"
+               ReferencedContainer = "container:TRZXPersonalWatch.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B70E986D1E63BA2C00FA3145"
+               BuildableName = "TRZXPersonalWatchUITests.xctest"
+               BlueprintName = "TRZXPersonalWatchUITests"
+               ReferencedContainer = "container:TRZXPersonalWatch.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B70E98491E63BA2C00FA3145"
+            BuildableName = "TRZXPersonalWatch.app"
+            BlueprintName = "TRZXPersonalWatch"
+            ReferencedContainer = "container:TRZXPersonalWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B70E98491E63BA2C00FA3145"
+            BuildableName = "TRZXPersonalWatch.app"
+            BlueprintName = "TRZXPersonalWatch"
+            ReferencedContainer = "container:TRZXPersonalWatch.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B70E98491E63BA2C00FA3145"
+            BuildableName = "TRZXPersonalWatch.app"
+            BlueprintName = "TRZXPersonalWatch"
+            ReferencedContainer = "container:TRZXPersonalWatch.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
